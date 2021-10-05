@@ -25,7 +25,7 @@
 - 확률분포 p(x)의 확률 밀도 함수는 알고있지만, p에서 샘플을 생성하기가 어려울 때,
 - 비교적 샘플을 생성하기가 쉬운 q(x)에서 샘플을 생성하며 p의 기댓값을 계산한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cc54a2f-cf56-4ed2-8008-112825712894/Untitled.png)
+![importance sampling](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cc54a2f-cf56-4ed2-8008-112825712894/Untitled.png)
 
 # 2 Background
 
