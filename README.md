@@ -34,11 +34,11 @@
 
 ### Policy gradient
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98704999-4c9a-435c-a7b5-a4438f61a6c5/Untitled.png)
+![Policy gradient](https://user-images.githubusercontent.com/78775910/135992255-91de7963-c50f-499c-8ff4-8d899a53cc04.png)
 
 ### Policy gradient로 미분할 수 있는 loss함수
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19846dc9-ead3-4526-93b8-e54861955451/Untitled.png)
+![loss function](https://user-images.githubusercontent.com/78775910/135992296-83af68a7-eb8f-4f4e-93f0-d5e656494af5.png)
 
 - 자동으로 gradient를 계산해주는 auto diff library를 사용한다고 한다면,
 - 첫 번째 식은 미분이 된 결과이기 때문에, 미분되기 전에 loss 함수가 있어야 된다.
@@ -52,16 +52,16 @@
 
 ## 2-2 Trust Region Methods - TRPO 설명임
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0fafa3f-197e-4b4c-ae57-8aaf6e3e0cbb/Untitled.png)
+![Trust Region Methods1](https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/183ba7c7-378e-4a75-86b8-6194d7a809bc/Untitled.png)
+![Trust Region Methods2](https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png)
 
 # 3 Clipped Surrogate Objective
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/29fe5fa2-bda6-463b-8096-4e56410d2422/Untitled.png)
+![Clipped Surrogate Objective1](https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/576badd8-b8e4-4737-9376-89fe9bfd4619/Untitled.png)
+![Clipped Surrogate Objective2](https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png)
 
 # 4 Adaptive KL Penalty Coefficient
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbe36871-4232-4acf-9ccf-d662265db869/Untitled.png)
+![Adaptive KL Penalty Coefficient](https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png)
