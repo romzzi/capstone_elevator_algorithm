@@ -1,5 +1,8 @@
 # capstone_elevator_algorithm
 
+
+
+
 # Proximal Policy Optimization Algorithms 리뷰
 
 ## 1 Introduction
@@ -40,7 +43,7 @@
 
 #### Policy gradient로 미분할 수 있는 loss함수
 
-![loss function](https://user-images.githubusercontent.com/78775910/135992296-83af68a7-eb8f-4f4e-93f0-d5e656494af5.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992296-83af68a7-eb8f-4f4e-93f0-d5e656494af5.png" width="30%" height="height 15%">
 
 - 자동으로 gradient를 계산해주는 auto diff library를 사용한다고 한다면,
 - 첫 번째 식은 미분이 된 결과이기 때문에, 미분되기 전에 loss 함수가 있어야 된다.
@@ -54,16 +57,16 @@
 
 ### 2-2 Trust Region Methods - TRPO 설명임
 
-![Trust Region Methods1](https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png" width="30%" height="height 15%">
 
-![Trust Region Methods2](https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png" width="30%" height="height 15%">
 
 ## 3 Clipped Surrogate Objective
 
-![Clipped Surrogate Objective1](https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png" width="30%" height="height 15%">
 
-![Clipped Surrogate Objective2](https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png" width="30%" height="height 15%">
 
 ## 4 Adaptive KL Penalty Coefficient
 
-![Adaptive KL Penalty Coefficient](https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png)
+<img src = "https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png" width="30%" height="height 15%">
