@@ -57,16 +57,16 @@
 
 ### 2-2 Trust Region Methods - TRPO 설명임
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png" width="30%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png" width="40%" height="height 15%">
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png" width="30%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png" width="40%" height="height 15%">
 
 ## 3 Clipped Surrogate Objective
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png" width="30%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png" width="40%" height="height 15%">
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png" width="30%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png" width="40%" height="height 15%">
 
 ## 4 Adaptive KL Penalty Coefficient
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png" width="30%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png" width="40%" height="height 15%">
