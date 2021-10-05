@@ -25,8 +25,8 @@
 - 확률분포 p(x)의 확률 밀도 함수는 알고있지만, p에서 샘플을 생성하기가 어려울 때,
 - 비교적 샘플을 생성하기가 쉬운 q(x)에서 샘플을 생성하며 p의 기댓값을 계산한다.
 
-![importance sampling](https://user-images.githubusercontent.com/78775910/135992074-6f57f4a1-463f-4eeb-b065-0111cc60d2a3.png){: width="50%" height="20%"}
-
+![importance sampling]<img src = "https://user-images.githubusercontent.com/78775910/135992074-6f57f4a1-463f-4eeb-b065-0111cc60d2a3.png" width="width size%" height="height size%">
+<img src = "Your Image Addr" width="width size%" height="height size%">
 
 # 2 Background
 
@@ -34,11 +34,11 @@
 
 ### Policy gradient
 
-![Policy gradient](https://user-images.githubusercontent.com/78775910/135992255-91de7963-c50f-499c-8ff4-8d899a53cc04.png){: width="50%" height="20%"}
+![Policy gradient](https://user-images.githubusercontent.com/78775910/135992255-91de7963-c50f-499c-8ff4-8d899a53cc04.png)
 
 ### Policy gradient로 미분할 수 있는 loss함수
 
-![loss function](https://user-images.githubusercontent.com/78775910/135992296-83af68a7-eb8f-4f4e-93f0-d5e656494af5.png){: width="50%" height="20%"}
+![loss function](https://user-images.githubusercontent.com/78775910/135992296-83af68a7-eb8f-4f4e-93f0-d5e656494af5.png)
 
 - 자동으로 gradient를 계산해주는 auto diff library를 사용한다고 한다면,
 - 첫 번째 식은 미분이 된 결과이기 때문에, 미분되기 전에 loss 함수가 있어야 된다.
@@ -52,16 +52,16 @@
 
 ## 2-2 Trust Region Methods - TRPO 설명임
 
-![Trust Region Methods1](https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png){: width="50%" height="20%"}
+![Trust Region Methods1](https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png)
 
-![Trust Region Methods2](https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png){: width="50%" height="20%"}
+![Trust Region Methods2](https://user-images.githubusercontent.com/78775910/135992493-ba4ea7c9-39f7-4871-8f70-3d11d2d2855b.png)
 
 # 3 Clipped Surrogate Objective
 
-![Clipped Surrogate Objective1](https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png){: width="50%" height="20%"}
+![Clipped Surrogate Objective1](https://user-images.githubusercontent.com/78775910/135992555-0de654ad-af6e-4b0a-bedb-925ac7212850.png)
 
-![Clipped Surrogate Objective2](https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png){: width="50%" height="20%"}
+![Clipped Surrogate Objective2](https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png)
 
 # 4 Adaptive KL Penalty Coefficient
 
-![Adaptive KL Penalty Coefficient](https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png){: width="50%" height="20%"}
+![Adaptive KL Penalty Coefficient](https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png)
