@@ -34,7 +34,7 @@
 
 ### Policy gradient
 
-<img src = "https://user-images.githubusercontent.com/78775910/135992255-91de7963-c50f-499c-8ff4-8d899a53cc04.png" width="40%" height="height 20%">
+<img src = "https://user-images.githubusercontent.com/78775910/135992255-91de7963-c50f-499c-8ff4-8d899a53cc04.png" width="30%" height="height 15%">
 
 ### Policy gradient로 미분할 수 있는 loss함수
 
