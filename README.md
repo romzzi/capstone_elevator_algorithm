@@ -3,7 +3,7 @@
 
 
 
-# Proximal Policy Optimization Algorithms 리뷰
+## Proximal Policy Optimization Algorithms 리뷰
 
 ## 1 Introduction
 
