@@ -26,7 +26,7 @@
 - 비교적 샘플을 생성하기가 쉬운 q(x)에서 샘플을 생성하며 p의 기댓값을 계산한다.
 
 ![importance sampling]<img src = "https://user-images.githubusercontent.com/78775910/135992074-6f57f4a1-463f-4eeb-b065-0111cc60d2a3.png" width="40%" height="height 20%">
-<img src = "Your Image Addr" width="width size%" height="height size%">
+
 
 # 2 Background
 
