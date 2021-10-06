@@ -97,6 +97,8 @@
 
 <img src = "https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png" width="40%" height="height 15%">
 
+<img src = "https://user-images.githubusercontent.com/78775910/136148495-8319466f-96cb-47b4-8dfd-43ab27b82420.png" width="40%" height="height 15%">
+
 - 패널티인 d가 특정한 수인 d(target)보다 작으면 베타를 감소시킨다. d가 작았다는 것은 변동이 작다는 것이기 때문에 베타를 감소시켜 변동 폭을 증가시킨다.
 - 패널티인 d가 특정한 수인 d(target)보다 크면 베타를 증가시킨다. d가 컸다는 것은 그만큼 변동이 크다는 것이기 때문에 베타를 증가시켜 변동 폭을 감소시킨다.
 - 위의 수식은 기존 TRPO 모형에서 실질적인 부분을 발전시킨 모형이다. TRPO는 2차 근사까지 사용하여 학문적인 정확도는 증가할지 몰라도 복잡한 수식이기 때문에 실제 상황에 적용하기 어렵고 처리 속도가 늦어진다.
