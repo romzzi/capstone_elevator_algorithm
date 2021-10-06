@@ -68,7 +68,7 @@
 - A가 양수인 경우 → maximize하기위해 log pi가 최대한 커져야 된다. → 확률에서 가장 큰 값은 1이다. → maximize 하기위해서 필요한 값은 log 1
 - A가 음수인 경우 → pi를 0으로 만들어 -∞으로 만들 수 있다. → 그렇게 큰 값으로 optimize를 할 수 없다. → 그럼 얼만큼 업데이트를 하는게 적합한가?
 
-### 2-2 Trust Region Methods - TRPO 설명임
+### 2-2 Trust Region Methods - TRPO 설명
 
 <img src = "https://user-images.githubusercontent.com/78775910/135992412-1d876ca9-2f09-4e9b-9f82-35392c209a6c.png" width="40%" height="height 15%">
 
@@ -80,6 +80,23 @@
 
 <img src = "https://user-images.githubusercontent.com/78775910/135992607-3926ee39-2127-490a-b60f-6a1b925206e2.png" width="40%" height="height 15%">
 
+- clip 함수 - clip(a,b,c)가 있으면 결과값이 b와 c 사이에 있도록 유도하는 함수이다.
+1. b < a < c 이면 clip(a,b,c) = a
+2. a < b 이면 clip(a,b,c) = b
+3. c < a 이면 clip(a,b,c) = c
+
+<img src = "https://user-images.githubusercontent.com/78775910/136148016-62f8a44a-946c-4262-8104-e875475165f2.png" width="40%" height="height 15%">
+
+- 가중치인 A가 양수 = 좋은 sample 즉, 발생할 확률(r)을 증가시키려 함. 하지만 일정 이상으로는 증가시키지 못하게 한다.
+- 가중치인 A가 음수 = 나쁜 sample 즉, 발생할 확률(r)을 감소시키려 함. 하지만 일정 이하로 감소시키지 못하게 한다.
+- 이러한 과정을 통해 좋은 sample은 많이 재활용, 나쁜 sample은 적게 재활용한다.
+- 가중치인 A를 최적화 시키면 되는데, 이를 반복해서 업데이트(큰 폭으로 변화하지 않기 때문에)
+- 논문에 따르면 실험 결과로는 뒤에 나오는 Adaptive KL Penalty Coefficient보다 결과가 좋다고 한다.
+
 ## 4 Adaptive KL Penalty Coefficient
 
 <img src = "https://user-images.githubusercontent.com/78775910/135992658-e300246e-6dd4-4869-b162-43406e267462.png" width="40%" height="height 15%">
+
+- 패널티인 d가 특정한 수인 d(target)보다 작으면 베타를 감소시킨다. d가 작았다는 것은 변동이 작다는 것이기 때문에 베타를 감소시켜 변동 폭을 증가시킨다.
+- 패널티인 d가 특정한 수인 d(target)보다 크면 베타를 증가시킨다. d가 컸다는 것은 그만큼 변동이 크다는 것이기 때문에 베타를 증가시켜 변동 폭을 감소시킨다.
+- 위의 수식은 기존 TRPO 모형에서 실질적인 부분을 발전시킨 모형이다. TRPO는 2차 근사까지 사용하여 학문적인 정확도는 증가할지 몰라도 복잡한 수식이기 때문에 실제 상황에 적용하기 어렵고 처리 속도가 늦어진다.
