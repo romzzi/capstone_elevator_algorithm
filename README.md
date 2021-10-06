@@ -85,7 +85,7 @@
 2. a < b 이면 clip(a,b,c) = b
 3. c < a 이면 clip(a,b,c) = c
 
-<img src = "https://user-images.githubusercontent.com/78775910/136148016-62f8a44a-946c-4262-8104-e875475165f2.png" width="40%" height="height 15%">
+<img src = "https://user-images.githubusercontent.com/78775910/136148016-62f8a44a-946c-4262-8104-e875475165f2.png" width="50%" height="height 25%">
 
 - 가중치인 A가 양수 = 좋은 sample 즉, 발생할 확률(r)을 증가시키려 함. 하지만 일정 이상으로는 증가시키지 못하게 한다.
 - 가중치인 A가 음수 = 나쁜 sample 즉, 발생할 확률(r)을 감소시키려 함. 하지만 일정 이하로 감소시키지 못하게 한다.
